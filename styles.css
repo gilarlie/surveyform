@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,700&display=swap');
 
 :root {
-  --color-white: pink;
-  --color-darkblue: #1b1b32;
-  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-  --color-green: #37af65;
+  --color-white: #F0FFFF;
+  --color-darkblue: #FF7F50;
+  --color-darkblue-alpha: FFA07A(27, 27, 50, 0.8);
+  --color-green: #B22222;
 }
 
 *,
@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bellota', cursive;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -34,10 +34,10 @@ body::before {
   background: var(--color-darkblue);
   background-image: linear-gradient(
       115deg,
-      rgba(58, 58, 158, 0.8),
-      rgba(136, 136, 206, 0.7)
+      rgba(244, 115, 35, 0.8),
+      rgba(255, 169, 84, 0.7)
     ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    url(https://i.etsystatic.com/25106742/r/il/8a17d3/3298630053/il_570xN.3298630053_leli.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
